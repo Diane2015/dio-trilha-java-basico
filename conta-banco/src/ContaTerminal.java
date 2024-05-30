@@ -11,7 +11,6 @@ public class ContaTerminal {
         System.out.println("Por favor, digite o seu nome");
         String nome = Scanner.next();
 
-//        System.out.println("Agora digite o seu sobrenome");
 //        String sobrenome = Scanner.next();
 
         System.out.println("Por favor, digite o número da sua agencia");
@@ -23,10 +22,6 @@ public class ContaTerminal {
         double saldo = 1000.00;
 
 
-//         System.out.println("saldo");
-//S          double saldo = Scanner.nextDouble();
-
-        // Output input by user
         System.out.println("Olá, " + nome + " obrigado por retornar ao XPTO Bank, " + "sua agência é: " + agencia +
                 " a conta é, " + conta + " e o saldo disponível é de: R$" + saldo);
 
